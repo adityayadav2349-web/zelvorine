@@ -1,0 +1,420 @@
+* {
+  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background: whitesmoke;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  padding: 0 40px;
+}
+
+.navbar h1 {
+  font-family: "Franklin Gothic Medium", Arial, sans-serif;
+  color: rgb(85, 30, 30);
+}
+
+.search {
+  display: flex;
+  gap: 10px;
+}
+
+.search input {
+  width: 280px;
+  height: 40px;
+  padding: 0 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.search button {
+  width: 90px;
+  height: 40px;
+  border: none;
+  background: rgb(85, 30, 30);
+  color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.links {
+  display: flex;
+  gap: 28px;
+}
+
+.links a {
+  text-decoration:none;
+  color: #333;
+  font-size: 0.75rem;
+  text-align: center;
+}
+
+.links i {
+  display: block;
+  margin-bottom: 4px;
+}
+.links span {
+  color: rgb(85, 30, 30);
+}
+
+@media (max-width: 900px) {
+  .navbar {
+    flex-wrap: wrap;
+    padding: 10px 20px;
+    height: auto;
+    gap: 15px;
+  }
+
+  .search input {
+    width: 200px;
+  }
+
+  .links {
+    gap: 18px;
+  }
+}
+
+.con {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.silder {
+    display: flex;
+    width: 400%;
+    height: 100%;
+    animation: slideShow 14s infinite;
+}
+
+.silder img {
+    width: 25%;
+    height: 100%;
+    object-fit: cover;
+    flex-shrink: 2;
+}
+
+
+@keyframes slideShow {
+    0% { transform: translateX(0); }
+    15% { transform: translateX(0); }
+    25% { transform: translateX(-25%); }
+    40% { transform: translateX(-25%); }
+    50% { transform: translateX(-50%); }
+    65% { transform: translateX(-50%); }
+    75% { transform: translateX(-75%); }
+    90% { transform: translateX(-75%); }
+    100% { transform: translateX(0); }
+}
+
+
+.img {
+    display: none;
+}
+
+
+@media (max-width: 900px) {
+    .con {
+        height: 300px;
+    }
+}
+
+@media (max-width: 600px) {
+    .con {
+        height: 200px;
+    }
+}
+.one{
+  height: 400px;
+  width: 600px;
+  display: inline-block;
+  border: 0px solid white;
+  margin-left: 40px;
+  background-image: url(https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw203d37b3/images/TrendingFinal_Men_D.jpg);
+  background-size: cover;
+  border-radius: 10px;
+  box-shadow: 0px 3px 3px ;
+  overflow: hidden;
+  margin-top: 10px;
+}
+.two{
+   height: 400px;
+  width: 600px;
+  display: inline-block;
+  border: 0px solid white;
+  margin-left: 40px;
+  background-image: url(https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw53d4c6ee/images/TrendingFinal_Women_D.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  box-shadow: 0px 3px 3px ;
+  overflow: hidden;
+  margin-top: 10px;
+
+}
+#mit{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly; 
+    
+}
+@media (max-width:600px){
+  .one{
+    height: 300px;
+    width:480px ;
+    overflow: hidden;
+
+  }
+  .two{
+height: 300px;
+    width:480px ;
+    overflow: hidden;
+  }
+}
+.net h2{
+  padding-bottom: 40px;
+  display: block;
+text-align: center;
+padding-top: 50px;
+
+}
+.net1{
+  height: 350px ;
+  width: 300px;
+  border: 0px solid;
+  border-radius: 10px;
+  background-image: url(https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dwd5345023/images/homepage/All_Banners/xylys_urban_new_arrival_d.jpg);
+  background-size: cover;
+  margin-left: 10px;
+  margin-top: 20px;
+  box-shadow: 0px 10px 10px ;
+}
+.net2{
+  height: 350px ;
+  width: 300px;
+  border: 0px solid;
+  border-radius: 10px;
+  background-image: url(https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw049755d0/images/homepage/All_Banners/Stellar_3_NA_D.jpg);
+  background-size: cover;
+  margin-left: 10px;
+  margin-top: 20px;
+  box-shadow: 0px 10px 10px ;
+}
+.net3{
+  height: 350px ;
+  width: 300px;
+  border: 0px solid;
+  border-radius: 10px;
+  background-image: url(https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw83817a15/images/Stellar_D.jpg);
+  background-size: cover;
+  margin-left: 10px;
+  margin-top: 20px;
+  box-shadow: 0px 10px 10px ;
+}
+.net4{
+  height: 350px ;
+  width: 300px;
+  border: 0px solid;
+  border-radius: 10px;
+  background-image: url(https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw18eed94a/images/homepage/All_Banners/NA_Showstopper_D-v1.jpg);
+  background-size: cover;
+  margin-left: 10px;
+  margin-top: 20px;
+  box-shadow: 0px 10px 10px ;
+}
+.net5{
+  height: 350px ;
+  width: 300px;
+  border: 0px solid;
+  border-radius: 10px;
+  background-image: url(https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dwe4480ac1/images/homepage/All_Banners/Glimmers_newarrival_d.jpg);
+  background-size: cover;
+  margin-left: 10px;
+  margin-top: 20px;
+  box-shadow: 0px 10px 10px ;
+}
+.net6{
+  height: 350px ;
+  width: 300px;
+  border: 0px solid;
+  border-radius: 10px;
+  background-image: url(https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dwd9c8ccf8/images/homepage/All_Banners/NA_Automatics_FY25_D.jpg);
+  background-size: cover;
+  margin-left: 10px;
+  margin-top: 20px;
+  box-shadow: 0px 10px 10px ;
+}
+ .hlo{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 60px;
+} 
+.coll {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+}
+
+.me {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 20px;
+  padding: 20px 40px;
+}
+
+.col, .col1,.col2 .col3, .col4, .col5, .col6, .col7 {
+  height: 360px;
+  width: 300px;
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 0px 8px 12px rgba(0,0,0,0.25);
+}
+
+.col  { background-image: url(https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw769f6587/images/homepage/All_Banners/glimmers_COLLECTION_updated_d.jpg); }
+ .col1 { background-image: url(https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw3132ef50/images/homepage/All_Banners/edge_COLLECTION_Updated_Sep_d.jpg); }
+.col2 { background-image: url(https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw23a95e14/images/homepage/All_Banners/memoir_COLLECTION_Updated_Sep_d.jpg); } 
+.col3 { background-image: url(https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw3944b27e/images/homepage/All_Banners/automatics_COLLECTION_Updated_Sep_d.jpg); }
+.col4 { background-image: url(https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dwdedc4e73/images/homepage/All_Banners/silvers_COLLECTION_Updated_Sep_d.jpg); }
+.col5 { background-image: url(https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw1af669ec/images/homepage/All_Banners/cocktails_COLLECTION_Updated_Sep_d.jpg); }
+.col6 { background-image: url(https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dwb26d6ddb/images/homepage/All_Banners/women_COLLECTION_Updated_Sep_d.jpg); }
+.col7 { background-image: url(https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw700c35cf/images/homepage/All_Banners/stellar_COLLECTION_d.jpg); }
+
+.brand{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+}
+.sec{
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 20px;
+  padding: 20px 40px;
+}
+.br1, .br4,.br5,.br6,.br7.br8,.br9,.br10,.br11,.br12{ 
+   border-radius: 10px;
+   height: 350px;
+   width:300px ;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 0px 8px 12px rgba(0,0,0,0.25);
+}
+.br1{background-image: url(https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw83e2e00b/images/homepage/Brands/titan_Sep_d.jpg);}
+/* .br2{background-image: url(https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dwd1e4c3c2/images/homepage/Brands/ft_Sep_d.jpg);}
+.br3{background-image: url(https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dwbff2ef9f/images/homepage/Brands/sonata_Sep_d.jpg);} */
+.br4{background-image: url(https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw9b44bd12/images/homepage/Brands/tommy_Sep_d.jpg);}
+.br5{background-image: url(https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dwb1653fc9/images/homepage/Brands/kc_Sep_d.jpg);}
+.br6{background-image: url(https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw8e713993/images/homepage/Brands/police_Sep_d.jpg);}
+.br7{background-image: url(https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dwf8e5fca7/images/homepage/All_Banners/collections-ducati-d.jpg);}
+.br8{background-image: url(https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dwad51ea49/images/homepage/Brands/zoop_Sep_d.jpg);}
+.br9{background-image: url(https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dwc1a2d17c/images/homepage/Brands/raga_Sep_d.jpg);}
+.br10{background-image: url(https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dwbd83db58/images/homepage/Brands/xylys_Sep_d.jpg);}
+.br11{background-image: url(https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw5626ec7d/images/homepage/Brands/edge_Sep_d.jpg);}
+.br12{background-image: url(https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw1fa5abd4/images/homepage/Brands/nebula_Sep_d.jpg);}
+ 
+.feedback {
+  max-width: 1200px;
+  margin: 60px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+.feedback h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+  letter-spacing: 1px;
+}
+.feed {
+  display: flex;
+  gap: 30px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.feedback div {
+  background: #fff;
+  border: 1px solid grey;
+  padding: 25px 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,.04);
+}
+.feedback div p {
+  font-style: italic;
+  margin: 0 0 15px;
+  color: black;
+}
+#com{
+  color:rgb(63, 19, 19);
+}
+#foot{
+height: 100px;
+width: auto;
+
+}
+#foot p{
+  text-align: center;
+  font-weight: 80px;
+  font-weight: bold;
+  font-size: large;
+  color: black;
+
+}
+#foot button{
+  height: 40px;
+  width: 150px;
+  align-content: center;
+  margin-left: 650px;
+  margin-top: 15px;
+  border-radius: 8px;
+  border: 1px solid grey;
+  box-shadow: 0px 2px 5px; 
+  background-color:rgba(231, 172, 21, 0.897) ;
+  cursor: pointer;
+
+}
+
+#foot a{
+  text-align: center;
+
+
+}
+
+
+
