@@ -1,5 +1,5 @@
 * {
-  
+
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -60,7 +60,7 @@ header {
 }
 
 .links a {
-  text-decoration:none;
+  text-decoration: none;
   color: #333;
   font-size: 0.75rem;
   text-align: center;
@@ -70,6 +70,7 @@ header {
   display: block;
   margin-bottom: 4px;
 }
+
 .links span {
   color: rgb(85, 30, 30);
 }
@@ -92,60 +93,87 @@ header {
 }
 
 .con {
-    position: relative;
-    width: 100%;
-    height: 500px;
-    overflow: hidden;
-    margin: 20px auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .silder {
-    display: flex;
-    width: 400%;
-    height: 100%;
-    animation: slideShow 14s infinite;
+  display: flex;
+  width: 400%;
+  height: 100%;
+  animation: slideShow 14s infinite;
 }
 
 .silder img {
-    width: 25%;
-    height: 100%;
-    object-fit: cover;
-    flex-shrink: 2;
+  width: 25%;
+  height: 100%;
+  object-fit: cover;
+  flex-shrink: 2;
 }
 
 
 @keyframes slideShow {
-    0% { transform: translateX(0); }
-    15% { transform: translateX(0); }
-    25% { transform: translateX(-25%); }
-    40% { transform: translateX(-25%); }
-    50% { transform: translateX(-50%); }
-    65% { transform: translateX(-50%); }
-    75% { transform: translateX(-75%); }
-    90% { transform: translateX(-75%); }
-    100% { transform: translateX(0); }
+  0% {
+    transform: translateX(0);
+  }
+
+  15% {
+    transform: translateX(0);
+  }
+
+  25% {
+    transform: translateX(-25%);
+  }
+
+  40% {
+    transform: translateX(-25%);
+  }
+
+  50% {
+    transform: translateX(-50%);
+  }
+
+  65% {
+    transform: translateX(-50%);
+  }
+
+  75% {
+    transform: translateX(-75%);
+  }
+
+  90% {
+    transform: translateX(-75%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
 }
 
 
 .img {
-    display: none;
+  display: none;
 }
 
 
 @media (max-width: 900px) {
-    .con {
-        height: 300px;
-    }
+  .con {
+    height: 300px;
+  }
 }
 
 @media (max-width: 600px) {
-    .con {
-        height: 200px;
-    }
+  .con {
+    height: 200px;
+  }
 }
-.one{
+
+.one {
   height: 400px;
   width: 600px;
   display: inline-block;
@@ -154,12 +182,13 @@ header {
   background-image: url(https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw203d37b3/images/TrendingFinal_Men_D.jpg);
   background-size: cover;
   border-radius: 10px;
-  box-shadow: 0px 3px 3px ;
+  box-shadow: 0px 3px 3px;
   overflow: hidden;
   margin-top: 10px;
 }
-.two{
-   height: 400px;
+
+.two {
+  height: 400px;
   width: 600px;
   display: inline-block;
   border: 0px solid white;
@@ -168,40 +197,45 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 10px;
-  box-shadow: 0px 3px 3px ;
+  box-shadow: 0px 3px 3px;
   overflow: hidden;
   margin-top: 10px;
 
 }
-#mit{
+
+#mit {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-evenly; 
-    
+  justify-content: space-evenly;
+
 }
-@media (max-width:600px){
-  .one{
+
+@media (max-width:600px) {
+  .one {
     height: 300px;
-    width:480px ;
+    width: 480px;
     overflow: hidden;
 
   }
-  .two{
-height: 300px;
-    width:480px ;
+
+  .two {
+    height: 300px;
+    width: 480px;
     overflow: hidden;
   }
 }
-.net h2{
+
+.net h2 {
   padding-bottom: 40px;
   display: block;
-text-align: center;
-padding-top: 50px;
+  text-align: center;
+  padding-top: 50px;
 
 }
-.net1{
-  height: 350px ;
+
+.net1 {
+  height: 350px;
   width: 300px;
   border: 0px solid;
   border-radius: 10px;
@@ -209,10 +243,11 @@ padding-top: 50px;
   background-size: cover;
   margin-left: 10px;
   margin-top: 20px;
-  box-shadow: 0px 10px 10px ;
+  box-shadow: 0px 10px 10px;
 }
-.net2{
-  height: 350px ;
+
+.net2 {
+  height: 350px;
   width: 300px;
   border: 0px solid;
   border-radius: 10px;
@@ -220,10 +255,11 @@ padding-top: 50px;
   background-size: cover;
   margin-left: 10px;
   margin-top: 20px;
-  box-shadow: 0px 10px 10px ;
+  box-shadow: 0px 10px 10px;
 }
-.net3{
-  height: 350px ;
+
+.net3 {
+  height: 350px;
   width: 300px;
   border: 0px solid;
   border-radius: 10px;
@@ -231,10 +267,11 @@ padding-top: 50px;
   background-size: cover;
   margin-left: 10px;
   margin-top: 20px;
-  box-shadow: 0px 10px 10px ;
+  box-shadow: 0px 10px 10px;
 }
-.net4{
-  height: 350px ;
+
+.net4 {
+  height: 350px;
   width: 300px;
   border: 0px solid;
   border-radius: 10px;
@@ -242,10 +279,11 @@ padding-top: 50px;
   background-size: cover;
   margin-left: 10px;
   margin-top: 20px;
-  box-shadow: 0px 10px 10px ;
+  box-shadow: 0px 10px 10px;
 }
-.net5{
-  height: 350px ;
+
+.net5 {
+  height: 350px;
   width: 300px;
   border: 0px solid;
   border-radius: 10px;
@@ -253,10 +291,11 @@ padding-top: 50px;
   background-size: cover;
   margin-left: 10px;
   margin-top: 20px;
-  box-shadow: 0px 10px 10px ;
+  box-shadow: 0px 10px 10px;
 }
-.net6{
-  height: 350px ;
+
+.net6 {
+  height: 350px;
   width: 300px;
   border: 0px solid;
   border-radius: 10px;
@@ -264,9 +303,10 @@ padding-top: 50px;
   background-size: cover;
   margin-left: 10px;
   margin-top: 20px;
-  box-shadow: 0px 10px 10px ;
+  box-shadow: 0px 10px 10px;
 }
- .hlo{
+
+.hlo {
   width: 100%;
   height: auto;
   display: flex;
@@ -275,7 +315,8 @@ padding-top: 50px;
   justify-content: space-evenly;
   align-items: center;
   margin-bottom: 60px;
-} 
+}
+
 .coll {
   width: 100%;
   display: flex;
@@ -293,32 +334,56 @@ padding-top: 50px;
   padding: 20px 40px;
 }
 
-.col, .col1,.col2 .col3, .col4, .col5, .col6, .col7 {
+.col, .col1, .col2, .col3, .col4, .col5, .col6, .col7 {
   height: 360px;
   width: 300px;
   border-radius: 10px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  box-shadow: 0px 8px 12px rgba(0,0,0,0.25);
+  box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.25);
 }
 
-.col  { background-image: url(https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw769f6587/images/homepage/All_Banners/glimmers_COLLECTION_updated_d.jpg); }
- .col1 { background-image: url(https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw3132ef50/images/homepage/All_Banners/edge_COLLECTION_Updated_Sep_d.jpg); }
-.col2 { background-image: url(https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw23a95e14/images/homepage/All_Banners/memoir_COLLECTION_Updated_Sep_d.jpg); } 
-.col3 { background-image: url(https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw3944b27e/images/homepage/All_Banners/automatics_COLLECTION_Updated_Sep_d.jpg); }
-.col4 { background-image: url(https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dwdedc4e73/images/homepage/All_Banners/silvers_COLLECTION_Updated_Sep_d.jpg); }
-.col5 { background-image: url(https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw1af669ec/images/homepage/All_Banners/cocktails_COLLECTION_Updated_Sep_d.jpg); }
-.col6 { background-image: url(https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dwb26d6ddb/images/homepage/All_Banners/women_COLLECTION_Updated_Sep_d.jpg); }
-.col7 { background-image: url(https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw700c35cf/images/homepage/All_Banners/stellar_COLLECTION_d.jpg); }
+.col {
+  background-image: url(https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw769f6587/images/homepage/All_Banners/glimmers_COLLECTION_updated_d.jpg);
+}
 
-.brand{
+.col1 {
+  background-image: url(https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw3132ef50/images/homepage/All_Banners/edge_COLLECTION_Updated_Sep_d.jpg);
+}
+
+.col2 {
+  background-image: url(https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw23a95e14/images/homepage/All_Banners/memoir_COLLECTION_Updated_Sep_d.jpg);
+}
+
+.col3 {
+  background-image: url(https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw3944b27e/images/homepage/All_Banners/automatics_COLLECTION_Updated_Sep_d.jpg);
+}
+
+.col4 {
+  background-image: url(https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dwdedc4e73/images/homepage/All_Banners/silvers_COLLECTION_Updated_Sep_d.jpg);
+}
+
+.col5 {
+  background-image: url(https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw1af669ec/images/homepage/All_Banners/cocktails_COLLECTION_Updated_Sep_d.jpg);
+}
+
+.col6 {
+  background-image: url(https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dwb26d6ddb/images/homepage/All_Banners/women_COLLECTION_Updated_Sep_d.jpg);
+}
+
+.col7 {
+  background-image: url(https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw700c35cf/images/homepage/All_Banners/stellar_COLLECTION_d.jpg);
+}
+
+.brand {
   width: 100%;
   display: flex;
   justify-content: center;
   padding: 40px 0;
 }
-.sec{
+
+.sec {
   height: auto;
   width: 100%;
   display: flex;
@@ -327,39 +392,72 @@ padding-top: 50px;
   gap: 20px;
   padding: 20px 40px;
 }
-.br1, .br4,.br5,.br6,.br7.br8,.br9,.br10,.br11,.br12{ 
-   border-radius: 10px;
-   height: 350px;
-   width:300px ;
+
+.br1, .br4, .br5, .br6, .br7, .br8, .br9, .br10, .br11, .br12 {
+  border-radius: 10px;
+  height: 350px;
+  width: 300px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  box-shadow: 0px 8px 12px rgba(0,0,0,0.25);
+  box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.25);
 }
-.br1{background-image: url(https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw83e2e00b/images/homepage/Brands/titan_Sep_d.jpg);}
+
+.br1 {
+  background-image: url(https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw83e2e00b/images/homepage/Brands/titan_Sep_d.jpg);
+}
+
 /* .br2{background-image: url(https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dwd1e4c3c2/images/homepage/Brands/ft_Sep_d.jpg);}
 .br3{background-image: url(https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dwbff2ef9f/images/homepage/Brands/sonata_Sep_d.jpg);} */
-.br4{background-image: url(https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw9b44bd12/images/homepage/Brands/tommy_Sep_d.jpg);}
-.br5{background-image: url(https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dwb1653fc9/images/homepage/Brands/kc_Sep_d.jpg);}
-.br6{background-image: url(https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw8e713993/images/homepage/Brands/police_Sep_d.jpg);}
-.br7{background-image: url(https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dwf8e5fca7/images/homepage/All_Banners/collections-ducati-d.jpg);}
-.br8{background-image: url(https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dwad51ea49/images/homepage/Brands/zoop_Sep_d.jpg);}
-.br9{background-image: url(https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dwc1a2d17c/images/homepage/Brands/raga_Sep_d.jpg);}
-.br10{background-image: url(https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dwbd83db58/images/homepage/Brands/xylys_Sep_d.jpg);}
-.br11{background-image: url(https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw5626ec7d/images/homepage/Brands/edge_Sep_d.jpg);}
-.br12{background-image: url(https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw1fa5abd4/images/homepage/Brands/nebula_Sep_d.jpg);}
- 
+.br4 {
+  background-image: url(https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw9b44bd12/images/homepage/Brands/tommy_Sep_d.jpg);
+}
+
+.br5 {
+  background-image: url(https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dwb1653fc9/images/homepage/Brands/kc_Sep_d.jpg);
+}
+
+.br6 {
+  background-image: url(https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw8e713993/images/homepage/Brands/police_Sep_d.jpg);
+}
+
+.br7 {
+  background-image: url(https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dwf8e5fca7/images/homepage/All_Banners/collections-ducati-d.jpg);
+}
+
+.br8 {
+  background-image: url(https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dwad51ea49/images/homepage/Brands/zoop_Sep_d.jpg);
+}
+
+.br9 {
+  background-image: url(https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dwc1a2d17c/images/homepage/Brands/raga_Sep_d.jpg);
+}
+
+.br10 {
+  background-image: url(https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dwbd83db58/images/homepage/Brands/xylys_Sep_d.jpg);
+}
+
+.br11 {
+  background-image: url(https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw5626ec7d/images/homepage/Brands/edge_Sep_d.jpg);
+}
+
+.br12 {
+  background-image: url(https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw1fa5abd4/images/homepage/Brands/nebula_Sep_d.jpg);
+}
+
 .feedback {
   max-width: 1200px;
   margin: 60px auto;
   padding: 0 20px;
   text-align: center;
 }
+
 .feedback h2 {
   font-size: 2rem;
   margin-bottom: 40px;
   letter-spacing: 1px;
 }
+
 .feed {
   display: flex;
   gap: 30px;
@@ -368,53 +466,221 @@ padding-top: 50px;
   justify-content: space-evenly;
   text-align: center;
 }
+
 .feedback div {
   background: #fff;
   border: 1px solid grey;
   padding: 25px 20px;
   border-radius: 10px;
-  box-shadow: 0 2px 4px rgba(0,0,0,.04);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .04);
 }
+
 .feedback div p {
   font-style: italic;
   margin: 0 0 15px;
   color: black;
 }
-#com{
-  color:rgb(63, 19, 19);
-}
-#foot{
-height: 100px;
-width: auto;
 
+#com {
+  color: rgb(63, 19, 19);
 }
-#foot p{
-  text-align: center;
-  font-weight: 80px;
-  font-weight: bold;
-  font-size: large;
-  color: black;
 
+.footer {
+  background-color: #2a2a2a;
+  padding: 60px 0 20px;
+  color: #f1f1f1;
+  margin-top: 40px;
 }
-#foot button{
-  height: 40px;
-  width: 150px;
-  align-content: center;
-  margin-left: 650px;
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  gap: 30px;
+}
+
+.footer-col {
+  flex: 1;
+  min-width: 220px;
+}
+
+.footer-col h3 {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #e0e0e0;
+}
+
+.footer-col .footer-logo {
+  font-family: "Franklin Gothic Medium", Arial, sans-serif;
+  font-size: 1.8rem;
+  color: #fff;
+}
+
+.footer-col p {
+  line-height: 1.6;
+  margin-bottom: 15px;
+  font-size: 0.95rem;
+  color: #bbb;
+}
+
+.footer-col ul {
+  list-style: none;
+}
+
+.footer-col ul li {
+  margin-bottom: 12px;
+}
+
+.footer-col ul li a {
+  text-decoration: none;
+  color: #bbb;
+  transition: color 0.3s ease;
+  font-size: 0.95rem;
+}
+
+.footer-col ul li a:hover {
+  color: #fff;
+}
+
+.newsletter {
+  display: flex;
   margin-top: 15px;
-  border-radius: 8px;
-  border: 1px solid grey;
-  box-shadow: 0px 2px 5px; 
-  background-color:rgba(231, 172, 21, 0.897) ;
+}
+
+.newsletter input {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  border-radius: 4px 0 0 4px;
+  outline: none;
+  font-size: 0.9rem;
+}
+
+.newsletter button {
+  padding: 12px 20px;
+  background-color: rgb(85, 30, 30);
+  color: white;
+  border: none;
+  border-radius: 0 4px 4px 0;
   cursor: pointer;
-
+  transition: background 0.3s ease;
+  font-size: 0.9rem;
 }
 
-#foot a{
+.newsletter button:hover {
+  background-color: rgb(110, 45, 45);
+}
+
+.footer-bottom {
   text-align: center;
-
-
+  padding-top: 30px;
+  margin-top: 40px;
+  border-top: 2px solid #444;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px;
 }
 
+.footer-bottom p {
+  color: #bbb;
+  font-size: 0.9rem;
+}
 
+.social-icons a {
+  display: inline-block;
+  margin-left: 20px;
+  color: #bbb;
+  font-size: 1.2rem;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
 
+.social-icons a:hover {
+  color: #fff;
+  transform: translateY(-3px);
+}
+
+@media (max-width: 768px) {
+  .footer-bottom {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .social-icons a {
+    margin: 0 10px;
+  }
+}
+
+/* Account Dropdown Styles */
+.account-dropdown {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  min-width: 140px;
+  box-shadow: 0px 8px 20px rgba(0,0,0,0.15);
+  z-index: 200;
+  border-radius: 8px;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  overflow: hidden;
+  margin-top: 15px;
+}
+
+.dropdown-content.show {
+  display: block;
+  animation: fadeIn 0.3s;
+}
+
+@keyframes fadeIn {
+  from {opacity: 0; transform: translate(-50%, -10px);}
+  to {opacity: 1; transform: translate(-50%, 0);}
+}
+
+.dropdown-content a {
+  color: #333;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  font-size: 0.95rem;
+  border-bottom: 1px solid #eee;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.dropdown-content a:last-child {
+  border-bottom: none;
+}
+
+.dropdown-content a:hover {
+  background-color: #f5f5f5;
+  color: rgb(85, 30, 30);
+}
+
+/* Navbar Logo Styles */
+.navbar h1 a {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo {
+  height: 45px; /* Adjust height based on your design */
+  width: 45px; /* Added width equal to height to make a perfect circle */
+  object-fit: cover; /* Changed from contain to cover for circular aspect ratio */
+  border-radius: 50%; /* Make the image circular */
+  vertical-align: middle;
+  margin-right: 12px;
+}
