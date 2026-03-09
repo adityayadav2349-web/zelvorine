@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZELVORIN - Login</title>
+    <link rel="icon" href="zelvorin2.jpeg" type="image/jpeg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"/>
+    <link rel="stylesheet" href="zelvorin.css">
+    <style>
+        .login-page {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 80vh;
+            background: whitesmoke;
+            padding: 40px 20px;
+        }
+        .login-container {
+            background: #fff;
+            padding: 50px 40px;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+            width: 100%;
+            max-width: 420px;
+            text-align: center;
+        }
+        .login-container h2 {
+            font-family: "Franklin Gothic Medium", Arial, sans-serif;
+            color: rgb(85, 30, 30);
+            font-size: 2.2rem;
+            margin-bottom: 15px;
+        }
+        .login-container p {
+            color: #666;
+            margin-bottom: 35px;
+            font-size: 1rem;
+        }
+        .input-group {
+            margin-bottom: 25px;
+            text-align: left;
+        }
+        .input-group label {
+            display: block;
+            margin-bottom: 10px;
+            color: #444;
+            font-weight: 600;
+            font-size: 0.95rem;
+        }
+        .input-group input {
+            width: 100%;
+            padding: 14px 15px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            outline: none;
+            transition: all 0.3s;
+            font-size: 1rem;
+            background: #fdfdfd;
+        }
+        .input-group input:focus {
+            border-color: rgb(85, 30, 30);
+            box-shadow: 0 0 0 3px rgba(85, 30, 30, 0.1);
+        }
+        .login-btn {
+            width: 100%;
+            padding: 15px;
+            background: rgb(85, 30, 30);
+            color: #fff;
+            border: none;
+            border-radius: 8px;
+            font-size: 1.05rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+            margin-top: 15px;
+            box-shadow: 0 4px 10px rgba(85, 30, 30, 0.2);
+        }
+        .login-btn:hover {
+            background: rgb(110, 45, 45);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 15px rgba(85, 30, 30, 0.3);
+        }
+        .login-footer {
+            margin-top: 30px;
+            font-size: 0.95rem;
+            color: #666;
+        }
+        .login-footer a {
+            color: rgb(85, 30, 30);
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.3s;
+        }
+        .login-footer a:hover {
+            color: rgb(110, 45, 45);
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+<header>
+  <div class="navbar">
+    <h1><a href="zelvorin.html" style="text-decoration:none; color:inherit;"><img src="zelvorin2.jpeg" alt="ZELVORIN" class="navbar-logo"> ZELVORIN</a></h1>
+    <div class="search">
+      <input type="text" placeholder="Search">
+      <button>Search</button>
+    </div>
+    <nav class="links">
+      <a href="account.html"><i class="fa-regular fa-user"></i><span>Account</span></a>
+      <a href="wishlist.html"><i class="fa-regular fa-heart"></i><span>Wishlist</span></a>
+      <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i><span>Cart</span></a>
+      <a href="track.html"><i class="fa-solid fa-location-dot"></i><span>Track</span></a>
+    </nav>
+  </div>
+</header>
+
+<div class="login-page">
+    <div class="login-container">
+        <h2>Welcome Back</h2>
+        <p>Sign in to your ZELVORIN account</p>
+        <form action="account.html">
+            <div class="input-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" placeholder="Enter your email" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Enter your password" required>
+            </div>
+            <button type="submit" class="login-btn">Log In</button>
+        </form>
+        <div class="login-footer">
+            Don't have an account? <a href="#">Create Account</a>
+        </div>
+    </div>
+</div>
+
+<footer class="footer">
+    <div class="footer-bottom" style="border-top:none; margin-top:0;">
+      <p>&copy; 2026 ZELVORIN. All rights reserved.</p>
+    </div>
+</footer>
+</body>
+</html>
